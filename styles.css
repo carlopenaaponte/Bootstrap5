@@ -1,0 +1,51 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+.aside button{
+    background: transparent;
+    border-radius: .3rem;
+    border: 1px solid rgb(220, 220, 220) ;
+    padding: .5rem;
+    display: flex;
+    font-size: 13px;
+    margin-right: 0px;
+}
+.aside a{
+    color: rgb(131, 127, 127);
+    margin-left: 10px;
+}
+@media (min-width: 970px) {
+    .main {
+        gap: .5rem;
+    }
+}
+
+p{
+    margin-bottom: 0;
+    margin-right: 1rem;
+    text-align: justify;
+}
+
+/* Responsive */
+
+@media (min-width: 992px) {
+    .nav-item{
+        margin: 0 50px;
+    }
+
+}
+
+.btn-custom-width{
+    width: 200px;
+}
+.nav-link.dropdown-toggle::after {
+    content: none; /* Establece el contenido del elemento ::after a "none" para ocultar la flecha */
+  }
+@media (max-width: 578px) {
+    #option{
+        margin: 0;
+ 
+    }
+}
